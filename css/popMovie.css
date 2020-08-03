@@ -1,0 +1,23 @@
+.popularity {
+  position: relative;
+  top: -60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.popContainer {
+  width: 1780px;
+  overflow: hidden;
+}
+.popmovies {
+  display: flex;
+  position: absolute;
+}
+.popImg {
+  margin-right: 0.2em;
+  margin-left: 0.2em;
+}
+.popImg img {
+  width: 349px;
+  height: 200px;
+}

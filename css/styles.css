@@ -1,0 +1,20 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap");
+@import "header.css";
+@import "mainMovie.css";
+@import "popMovie.css";
+* {
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  background-color: #141414;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
