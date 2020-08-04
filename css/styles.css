@@ -3,6 +3,8 @@
 @import "header.css";
 @import "mainMovie.css";
 @import "popMovie.css";
+@import "nowMovie.css";
+@import "originalMovie.css";
 * {
   box-sizing: border-box;
   list-style: none;
@@ -17,4 +19,12 @@ body {
 a {
   text-decoration: none;
   color: whitesmoke;
+}
+h3 {
+  position: absolute;
+  top: -50px;
+  left: 80px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
 }

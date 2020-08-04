@@ -1,5 +1,5 @@
 function popMovie() {
-  return fetch("https://yts.mx/api/v2/list_movies.json?limit=20")
+  return fetch("https://yts.mx/api/v2/list_movies.json?page=1")
     .then((response) => response.json())
     .then((json) => json.data.movies);
 }
@@ -18,3 +18,21 @@ const popMovieList = (items) => {
 popMovie().then((movies) => {
   Moviee(movies);
 });
+
+const popSlideContainer = document.querySelectorAll(".slide");
+const popLeftBtn = document.querySelectorAll(".leftBtn");
+const poprightBtn = document.querySelectorAll(".rightBtn");
+let popIndex = 0;
+const popLeftClick = (count) => {
+  popSlideContainer[0].style.left = count * -100 + "%";
+  popIndex = count;
+};
+
+function popOnSlide() {
+  popLeftBtn.forEach((left) => {
+    left.addEventListener("click", () => {
+      popLeftClick(popIndex + 1);
+    });
+  });
+}
+popOnSlide();

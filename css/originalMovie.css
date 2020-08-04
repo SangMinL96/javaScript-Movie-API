@@ -1,52 +1,52 @@
-.popularity {
+.original {
   position: relative;
-  top: -60px;
   width: 100%;
+  height: 600px;
   display: flex;
   justify-content: center;
-  height: 250px;
 }
-.popContainer {
+.originalContainer {
   position: absolute;
   width: 1780px;
-  height: 200px;
+  height: 500px;
   overflow: hidden;
 }
-.popmovies {
+.originalmovies {
   display: flex;
   position: absolute;
+  left: -100%;
 }
-.popImg {
+.originalImg {
   width: 350px;
-  height: 200px;
+  height: 500px;
   margin-right: 0.2em;
   margin-left: 0.2em;
 }
-.popImg img {
+.originalImg img {
   width: 100%;
   height: 100%;
 }
-.leftBtn {
+.big_leftBtn {
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
   left: 0;
   width: 70px;
-  height: 200px;
+  height: 500px;
   background-color: rgba(0, 0, 0, 0.39);
   color: white;
   font-size: 3rem;
   cursor: pointer;
 }
-.rightBtn {
+.big_rightBtn {
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
   right: 0;
   width: 70px;
-  height: 200px;
+  height: 500px;
   background-color: rgba(0, 0, 0, 0.39);
   color: white;
   font-size: 3rem;

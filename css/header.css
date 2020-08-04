@@ -6,9 +6,15 @@ header {
   top: 0;
   z-index: 9999;
 }
+
 .header_column {
   display: flex;
   align-items: center;
+  margin-left: 3em;
+  margin-left: 3em;
+}
+.header_column img {
+  height: 50px;
 }
 .header_column:nth-child(1) a {
   margin-left: 1em;
